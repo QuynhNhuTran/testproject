@@ -1,0 +1,200 @@
+ html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', serif;
+  font-size: 16px;
+}
+.jumbotron {
+  background-color: transparent;
+  height: 500px;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 15px;
+}
+
+.section {
+  text-align: center;
+  padding-top: 40px;
+  background: #eee;
+}
+/*------- HEADER_DIV -------*/
+.header {
+  padding: 40px;
+  background-color: #eee;
+  background: url("../every_things-master/photos/featured.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 8px 0 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav {
+  float: center;
+  margin-top: 40px;
+  color: #fff;
+  z-index: 1;
+}
+
+.nav-pills>li>a {
+  color: #fff;
+  position: relative;
+  
+}
+
+.header_nav li {
+  color: #fff
+  opacity: 0;
+}
+.header_nav{
+  background-color: black;
+  opacity: 0.6;
+  height: 300px
+  width:100%;
+}
+
+/*------- JUMBOTRON_DIV --------*/
+.jumbotron h2 {
+  color: #fff;
+  font-size: 60px;
+  text-align: right;
+  margin: 0;
+  width: 100%
+}
+
+/*------- BANNER_DIV -------*/
+.banner {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.section h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: tomato;
+  height: 300px;
+  color: #fff;
+}
+
+.section .btn {
+  background-color: rgba(216, 25, 47, .5);
+  border: 0px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.slogan{
+  width: 50%;
+  float: right;
+  text-align: left;
+  margin-top: 50px
+}
+.slogan h2{
+  text-align: left;
+}
+
+/*-------- SECTION_DIV -------*/
+.section ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  text-align: left;
+  float: left;
+}
+
+.section ul li h3 {
+  font-weight: bold;
+}
+.section ul li a {
+  color: tomato;
+  text-decoration: underline;;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section img{
+  width: 300px;
+  height: 200px
+}
+.section ul li p {
+  font-style: italic;
+  vertical-align: 
+}
+.page-header{
+  padding-bottom: 9px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #eee
+}
+
+.info-box{
+  float: right;
+  text-align: left;
+  width: 100%;
+  padding-left: 20%;
+}
+.quotation_icon{
+  color: tomato;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.quote-box{
+  margin-top: 50px;
+}
+
+.glyphicon{
+  color: tomato;
+  font-size: 80px;
+}
+
+/*------- FOOTER_DIV --------*/
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 39px;
+}
+.italic-div{
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*------- BANNER IMG ------*/
+.banner img{
+    height: 200px;
+    width: 500px
+}
+.banner h2 p{
+  text-align: left;
+}
+
+/*SECTION_DIV*/
+.col-sm-6 h2 p{
+  float: left;
+  margin-right: 20px;
+
+}
+.btn_section{
+  min-width: 150px;
+  border: 1px solid #eee;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px
+}
